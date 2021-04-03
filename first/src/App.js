@@ -6,9 +6,12 @@ import {BrowserRouter} from 'react-router-dom';
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import Body from './Body/Body'
-// import './mycustom.css';
-// import './vendor/bootstrap/css/bootstrap.min.css';
-// import './css/heroic-features.css';
+import './css/custom.css';
+import './vendor/bootstrap/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import './css/heroic-features.css';
+
 
 function App() {
   return (
