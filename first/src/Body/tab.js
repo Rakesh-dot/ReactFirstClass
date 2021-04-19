@@ -15,7 +15,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Item from './Item'
 import Add from './AddItem'
-import About from './About'
+import AllCart from './AllCart'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -90,7 +90,7 @@ export default function ScrollableTabsButtonForce() {
         <Add/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <About/>
+        <AllCart/>
       </TabPanel>
      
     </div>
